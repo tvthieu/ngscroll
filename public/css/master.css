@@ -1,0 +1,78 @@
+.centered.form {
+    max-width: 450px;
+    width: 100%;
+    margin: 100px auto 30px;
+}
+form.live_form {
+    padding: 30px 20px;
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+.social {
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e0e0e0;
+}
+h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #999;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.btn-facebook {
+    background: #3B5998;
+    color: #fff;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+}
+.btn-google {
+    background: #D34836;
+    color: #fff;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+}
+.btn-block {
+    margin-top: 5px;
+}
+.centered.form .input-group, .centered.form .form-group {
+    margin-bottom: 25px;
+}
+.centered.form label {
+    width: 100%;
+}
+.btn {
+    border-radius: 1.61765rem;
+    padding: 14px 45px;
+    position: relative;
+    letter-spacing: -.4px;
+    overflow: hidden;
+    -webkit-transition: all 0.6s;
+    -o-transition: all 0.6s;
+    transition: all 0.6s;
+    z-index: 1;
+}
+.icheckbox_flat-blue, .iradio_flat-blue {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    background: url(../img/blue.png) no-repeat;
+    border: none;
+    cursor: pointer;
+}
+.icheckbox_flat-blue {
+    background-position: 0 0;
+}
