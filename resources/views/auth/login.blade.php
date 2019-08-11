@@ -5,7 +5,6 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <!-- <div class="card-header">{{ __('Login') }}</div> -->
 
                 <div class="card-body">
                     <form method="POST" action="{{ route('login') }}">
@@ -72,53 +71,10 @@
                     </form>
                 </div>
             </div>
-
-
-            <div class="centered form">      
-
-                <form class="live_form form" id="login_form" method="post" action="{{ route('login') }}"> 
-
-                  <div class="social">
-                    <h3>Đăng nhập dùng tài khoản mạng xã hội</h3>
-                    <a href="{{ url('/auth/redirect/facebook') }}" class="btn btn-facebook btn-block">Đăng nhập với Facebook</a>
-                    <a href="{{ url('/auth/redirect/google') }}" class="btn btn-google btn-block">Đăng nhập với Google</a>
-
-                  </div>
-
-                  <div class="form-group">
-                    <label for="email">Email hoặc tên tài khoản  
-                      <a href="{{ url('/dang-ki') }}" class="pull-right">(Tạo tài khoản)</a>
-                    </label>
-                    <input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
-                    @error('email')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
-                  </div>
-                  <div class="form-group">
-                    <label for="pass">Mật khẩu <a href="#forgot" class="pull-right" id="forgot-password">(Quên mật khẩu)</a></label>
-                    <input type="password" class="form-control" id="pass" placeholder="Password" name="password">
-                  </div>
-                  <p></p>
-                  <div class="form-group row">
-                                        <div style="padding-left: 20px">
-                                            <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
-
-                                                <label class="form-check-label" for="remember">
-                                                    {{ __('Ghi nhớ') }}
-                                                </label>
-                                            </div>
-                                        </div>
-                                    </div>
-                  <button type="submit" class="btn btn-primary">{{ __('Đăng Nhập') }}</button>
-                </form>   
-    </div>
   </div>
         </div>
 
-
+<div>test</div>
 
     </div>
 </div>
